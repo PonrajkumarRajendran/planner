@@ -1,7 +1,11 @@
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./home.styles.scss";
 const Home = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+    document.title = "HOME";
+  }, []);
   const redirect = (value) => {
     navigate(`/${value}`);
   };
