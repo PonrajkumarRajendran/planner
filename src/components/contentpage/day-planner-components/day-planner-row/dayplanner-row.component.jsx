@@ -17,7 +17,7 @@ const DayPlannerRow = ({ objectData }) => {
       id: _id,
     };
     const response = await fetch(
-      "http://node-express-env.eba-cxqhpveg.us-east-1.elasticbeanstalk.com/api/plans/update",
+      "https://pure-badlands-08295.herokuapp.com//api/plans/update",
       {
         method: "POST",
         headers: {
@@ -36,7 +36,7 @@ const DayPlannerRow = ({ objectData }) => {
       id: _id,
     };
     const response = await fetch(
-      "http://node-express-env.eba-cxqhpveg.us-east-1.elasticbeanstalk.com/api/plans/delete",
+      "https://pure-badlands-08295.herokuapp.com//api/plans/delete",
       {
         method: "POST",
         headers: {

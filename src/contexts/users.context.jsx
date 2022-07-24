@@ -10,7 +10,7 @@ const UserProvider = ({ children }) => {
     if (localStorage.getItem("user")) {
       const verifyUser = async () => {
         const response = await fetch(
-          "http://node-express-env.eba-cxqhpveg.us-east-1.elasticbeanstalk.com/api/user/verify",
+          "https://pure-badlands-08295.herokuapp.com//api/user/verify",
           {
             method: "POST",
             headers: {

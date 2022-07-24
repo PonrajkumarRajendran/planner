@@ -9,7 +9,7 @@ const Projects = () => {
   useEffect(() => {
     const getProjects = async () => {
       const response = await fetch(
-        "http://node-express-env.eba-cxqhpveg.us-east-1.elasticbeanstalk.com/api/projects",
+        "https://pure-badlands-08295.herokuapp.com//api/projects",
         {
           method: "GET",
           headers: {

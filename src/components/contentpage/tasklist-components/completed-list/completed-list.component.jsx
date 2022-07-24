@@ -8,7 +8,7 @@ const CompletedList = () => {
   useEffect(() => {
     const getCompletedList = async () => {
       const response = await fetch(
-        "http://node-express-env.eba-cxqhpveg.us-east-1.elasticbeanstalk.com/api/tasks/completed",
+        "https://pure-badlands-08295.herokuapp.com//api/tasks/completed",
         {
           method: "GET",
           headers: {

@@ -7,7 +7,7 @@ const DoingList = () => {
   useEffect(() => {
     const getDoingList = async () => {
       const response = await fetch(
-        "http://node-express-env.eba-cxqhpveg.us-east-1.elasticbeanstalk.com/api/tasks/doing",
+        "https://pure-badlands-08295.herokuapp.com//api/tasks/doing",
         {
           method: "GET",
           headers: {

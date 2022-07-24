@@ -41,7 +41,7 @@ const EditTaskModal = ({
       ...editTaskFields,
     };
     await fetch(
-      "http://node-express-env.eba-cxqhpveg.us-east-1.elasticbeanstalk.com/api/tasks/updateRecord",
+      "https://pure-badlands-08295.herokuapp.com//api/tasks/updateRecord",
       {
         method: "POST",
         headers: {

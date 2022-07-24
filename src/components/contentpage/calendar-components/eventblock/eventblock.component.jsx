@@ -10,7 +10,7 @@ const EventBlock = ({ value, importance, id }) => {
       id: id,
     };
     const response = await fetch(
-      "http://node-express-env.eba-cxqhpveg.us-east-1.elasticbeanstalk.com/api/events/delete",
+      "https://pure-badlands-08295.herokuapp.com//api/events/delete",
       {
         method: "POST",
         headers: {
