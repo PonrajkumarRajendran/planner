@@ -9,7 +9,7 @@ const Projects = () => {
   useEffect(() => {
     const getProjects = async () => {
       const response = await fetch(
-        "https://pure-badlands-08295.herokuapp.com//api/projects",
+        "https://pure-badlands-08295.herokuapp.com/api/projects",
         {
           method: "GET",
           headers: {

@@ -10,7 +10,7 @@ const TaskContainer = ({ objectData }) => {
       id: objectData._id,
     };
     const response = await fetch(
-      "https://pure-badlands-08295.herokuapp.com//api/tasks/delete",
+      "https://pure-badlands-08295.herokuapp.com/api/tasks/delete",
       {
         method: "POST",
         headers: {
@@ -36,7 +36,7 @@ const TaskContainer = ({ objectData }) => {
       newvalue: value,
     };
     const response = await fetch(
-      "https://pure-badlands-08295.herokuapp.com//api/tasks/updateTab",
+      "https://pure-badlands-08295.herokuapp.com/api/tasks/updateTab",
       {
         method: "POST",
         headers: {

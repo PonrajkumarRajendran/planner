@@ -13,7 +13,7 @@ const ProjectAddBox = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await fetch(
-      "https://pure-badlands-08295.herokuapp.com//api/projects/add",
+      "https://pure-badlands-08295.herokuapp.com/api/projects/add",
       {
         method: "POST",
         headers: {

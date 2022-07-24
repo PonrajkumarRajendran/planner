@@ -26,7 +26,7 @@ const SignUp = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://pure-badlands-08295.herokuapp.com//api/user/register",
+        "https://pure-badlands-08295.herokuapp.com/api/user/register",
         {
           method: "POST",
           headers: {

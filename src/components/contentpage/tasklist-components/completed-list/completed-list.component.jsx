@@ -8,7 +8,7 @@ const CompletedList = () => {
   useEffect(() => {
     const getCompletedList = async () => {
       const response = await fetch(
-        "https://pure-badlands-08295.herokuapp.com//api/tasks/completed",
+        "https://pure-badlands-08295.herokuapp.com/api/tasks/completed",
         {
           method: "GET",
           headers: {

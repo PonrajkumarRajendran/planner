@@ -24,7 +24,7 @@ const SignIn = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://pure-badlands-08295.herokuapp.com//api/user/login",
+        "https://pure-badlands-08295.herokuapp.com/api/user/login",
         {
           method: "POST",
           headers: {

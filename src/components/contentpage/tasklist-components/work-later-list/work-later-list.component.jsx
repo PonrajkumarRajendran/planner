@@ -7,7 +7,7 @@ const WorkLaterList = () => {
   useEffect(() => {
     const getWorkLaterList = async () => {
       const response = await fetch(
-        "https://pure-badlands-08295.herokuapp.com//api/tasks/work-later",
+        "https://pure-badlands-08295.herokuapp.com/api/tasks/work-later",
         {
           method: "GET",
           headers: {

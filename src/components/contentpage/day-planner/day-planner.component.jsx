@@ -14,7 +14,7 @@ const DayPlanner = () => {
     document.title = "Day Planner";
     const getPlans = async () => {
       const response = await fetch(
-        "https://pure-badlands-08295.herokuapp.com//api/plans",
+        "https://pure-badlands-08295.herokuapp.com/api/plans",
         {
           method: "GET",
           headers: {
@@ -32,7 +32,7 @@ const DayPlanner = () => {
   const handleNewPlanSubmit = async (e) => {
     e.preventDefault();
     const response = await fetch(
-      "https://pure-badlands-08295.herokuapp.com//api/plans/add",
+      "https://pure-badlands-08295.herokuapp.com/api/plans/add",
       {
         method: "POST",
         headers: {

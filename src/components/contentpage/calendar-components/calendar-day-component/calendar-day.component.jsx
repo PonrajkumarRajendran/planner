@@ -29,7 +29,7 @@ const CalendarDay = ({ dateValue, month, year }) => {
     };
     const fetchData = async () => {
       const response = await fetch(
-        "https://pure-badlands-08295.herokuapp.com//api/events",
+        "https://pure-badlands-08295.herokuapp.com/api/events",
         {
           method: "POST",
           headers: {
@@ -44,7 +44,7 @@ const CalendarDay = ({ dateValue, month, year }) => {
     };
     const fetchTask = async () => {
       const response = await fetch(
-        "https://pure-badlands-08295.herokuapp.com//api/tasks/fetch",
+        "https://pure-badlands-08295.herokuapp.com/api/tasks/fetch",
         {
           method: "POST",
           headers: {

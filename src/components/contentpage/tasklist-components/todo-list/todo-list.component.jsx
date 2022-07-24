@@ -7,7 +7,7 @@ const ToDoList = () => {
   useEffect(() => {
     const getToDoList = async () => {
       const response = await fetch(
-        "https://pure-badlands-08295.herokuapp.com//api/tasks/to-do",
+        "https://pure-badlands-08295.herokuapp.com/api/tasks/to-do",
         {
           method: "GET",
           headers: {

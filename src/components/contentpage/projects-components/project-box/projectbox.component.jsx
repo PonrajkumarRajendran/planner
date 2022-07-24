@@ -8,7 +8,7 @@ const ProjectBox = ({ title, id }) => {
       id: id,
     };
     const response = await fetch(
-      "https://pure-badlands-08295.herokuapp.com//api/projects/delete",
+      "https://pure-badlands-08295.herokuapp.com/api/projects/delete",
       {
         method: "POST",
         headers: {
