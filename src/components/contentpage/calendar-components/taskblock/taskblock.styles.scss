@@ -1,0 +1,20 @@
+.taskTitle-block {
+  font-size: 12px;
+  background-color: #4976fc;
+  color: white;
+  margin-bottom: 5px;
+  padding: 2px 0 2px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  .calendar-task-span {
+    max-width: 16ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+.COMPLETED {
+  visibility: hidden;
+}

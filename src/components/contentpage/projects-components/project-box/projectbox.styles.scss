@@ -1,0 +1,41 @@
+.projectbox-container {
+  height: 150px;
+  width: 200px;
+  border: 1px solid #121212;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .projectbox.title {
+    font-size: 15px;
+  }
+  .projectbox-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    color: white;
+    .projectbox-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      font-size: 12px;
+      justify-content: center;
+      align-items: center;
+      transition: 0.5s;
+      cursor: pointer;
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+    .projectbox-open-icon {
+      background-color: #1ed760;
+    }
+    .projectbox-delete-icon {
+      background-color: rgba(255, 0, 0, 0.68);
+    }
+  }
+}

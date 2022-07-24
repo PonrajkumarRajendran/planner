@@ -1,0 +1,20 @@
+.completedlist-container {
+  margin: 30px;
+  min-height: 100%;
+  width: 230px;
+  .tasklist-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .completed-header {
+      font-size: 14px;
+      font-weight: 500;
+      padding: 5px 40px 5px 5px;
+      border-radius: 5px;
+      color: white;
+      background-color: rgba(153, 205, 50, 0.779);
+    }
+    .completed-header {
+    }
+  }
+}

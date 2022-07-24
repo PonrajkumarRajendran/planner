@@ -1,0 +1,30 @@
+.eventTitle-block {
+  color: white;
+  margin-bottom: 5px;
+  padding: 2px 0 2px 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  .calendar-event-span {
+    max-width: 16ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .eventdelete-icon {
+    margin-right: 5px;
+    transform: translateY(1px);
+    cursor: pointer;
+  }
+}
+.High {
+  background-color: rgba(255, 0, 0, 0.68);
+}
+.Medium {
+  background-color: #e4f216;
+}
+.Low {
+  background-color: yellowgreen;
+}

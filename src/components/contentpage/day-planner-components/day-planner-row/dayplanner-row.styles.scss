@@ -1,0 +1,49 @@
+.planrow {
+  .planrow-row {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .planrow-delete-icon {
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover {
+      color: red;
+    }
+  }
+  .planrow-update-icon {
+    text-align: center;
+    .planrow-update-button {
+      font-family: "Montserrat";
+      background: transparent;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.5s;
+      &:hover {
+        background-color: #1ed760;
+        color: white;
+      }
+    }
+    .planrow-undo-button {
+      font-family: "Montserrat";
+      background: transparent;
+      color: #121212;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      cursor: pointer;
+      transition: 0.5s;
+      &:hover {
+        background-color: white;
+        color: #1ed760;
+      }
+    }
+  }
+}
+.completed {
+  background-color: #1ed75f94;
+}

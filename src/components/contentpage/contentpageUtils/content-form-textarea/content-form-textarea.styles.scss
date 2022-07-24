@@ -1,0 +1,13 @@
+.textarea-container {
+  margin-left: 10px;
+  margin-bottom: 20px;
+
+  margin-top: 0;
+  .textarea-class {
+    border: 0.5px solid #121212;
+    font-family: "Montserrat";
+    &:focus {
+      outline: none;
+    }
+  }
+}

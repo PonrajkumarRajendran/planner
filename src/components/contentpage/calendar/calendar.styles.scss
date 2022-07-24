@@ -1,0 +1,34 @@
+.calendar-container {
+  margin-top: -20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .calendar-header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+    .calendar-event-add-button {
+      margin-top: 10px;
+    }
+  }
+  .calendar-table {
+    padding: 0;
+    margin-right: 20px;
+    thead {
+      th {
+        text-align: start;
+        border-bottom: 1px solid #121212a8;
+
+        padding-bottom: 10px;
+        font-weight: 500;
+        width: 150px;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 10px;
+      }
+      .weekend-header {
+      }
+    }
+  }
+}

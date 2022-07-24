@@ -1,0 +1,65 @@
+.dayplanner-container {
+  margin-top: -30px;
+  .newplan-container {
+    display: flex;
+    justify-content: center;
+    .newplan-form {
+      padding: 0;
+      margin-left: 20px;
+      display: flex;
+      box-shadow: 0 0 10px -5px #121212;
+      width: 450px;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+      border-radius: 15px;
+      .planbutton-container {
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        transform: translateY(4px);
+        .addplan-button {
+          padding: 10px 15px 10px 15px;
+          background: transparent;
+          border: none;
+          border-radius: 25px;
+          font-size: 14px;
+          font-family: "Montserrat";
+          transition: 0.5s;
+          cursor: pointer;
+          background-color: #1ed75f4f;
+          color: #121212;
+          &:hover {
+            background-color: #1ed760;
+            color: white;
+            transform: translateY(-5px);
+          }
+        }
+      }
+    }
+  }
+  .plantable-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    .plan-table {
+      padding: 0;
+      thead {
+        th {
+          text-align: start;
+          border-bottom: 1px solid #12121227;
+          padding-bottom: 10px;
+          font-weight: 600;
+        }
+        .plan-header {
+          padding-right: 600px;
+          color: rgb(165, 165, 8);
+        }
+        .delete-header {
+          color: red;
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+}

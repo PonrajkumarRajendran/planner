@@ -1,0 +1,21 @@
+.month-selection-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .selected-month {
+    margin: 0 20px;
+    font-size: 14px;
+  }
+  .toggle-month-button {
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}

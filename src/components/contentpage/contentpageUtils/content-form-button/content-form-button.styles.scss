@@ -1,0 +1,23 @@
+.contentsubmitbutton-container {
+  display: flex;
+  align-items: center;
+  width: 330px;
+  justify-content: center;
+  margin-top: 50px;
+  .contentsubmitbutton {
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    border: 0.5px solid #12121253;
+    outline: none;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: "Montserrat";
+    &:hover {
+      background-color: yellowgreen;
+      border: none;
+      color: white;
+      transform: none;
+    }
+  }
+}

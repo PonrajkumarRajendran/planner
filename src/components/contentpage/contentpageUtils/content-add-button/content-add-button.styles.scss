@@ -1,0 +1,16 @@
+.initiate-add-button {
+  margin-left: 30px;
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+  &:hover {
+    background-color: #1ed760;
+    color: white;
+  }
+  .font-icon {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+}

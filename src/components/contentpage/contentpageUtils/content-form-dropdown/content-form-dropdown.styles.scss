@@ -1,0 +1,18 @@
+.content-dropdown-container {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  margin-left: 10px;
+  select {
+    border: none;
+    border-bottom: 0.5px solid #121212;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-left: 10px;
+    transform: translateY(-2px);
+    width: 150px;
+    &:focus {
+      outline: none;
+    }
+  }
+}
