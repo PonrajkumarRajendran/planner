@@ -18,6 +18,8 @@ const SignIn = () => {
   useEffect(() => {
     if (user) {
       navigate("/");
+    } else {
+      document.title = "Sign In";
     }
   }, [user]);
   const handleSubmit = async (e) => {
@@ -56,6 +58,9 @@ const SignIn = () => {
       <div className="info-container">
         <SideInfo />
       </div>
+      <div className="mobile-header">
+        <span>Planner</span>
+      </div>
       <div className="signin-container">
         <div className="signin-form">
           <form onSubmit={handleSubmit}>
@@ -76,7 +81,6 @@ const SignIn = () => {
             <AuthpageButton buttonName={"SIGN IN"} />
           </form>
         </div>
-        <div className="divide-line"></div>
         <div className="signup-redirect">
           <span>
             New here? No issues,{" "}

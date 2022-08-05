@@ -1,41 +1,83 @@
-.signin-page {
-  min-height: 100vh;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  background-color: rgb(247, 255, 244);
-
-  .signin-container {
-    margin-left: 100px;
-    background-color: white;
-    min-height: 300px;
-    width: 400px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 70px -50px #121212;
-    padding: 15px;
-    .signin-form {
-      padding-top: 40px;
-    }
-    .divide-line {
-      height: 30px;
-      width: 85%;
-      border-bottom: 1px solid #cfcdcd;
-      margin-left: 7.5%;
-    }
-    .signup-redirect {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      .redirect-link {
-        color: #1ed740;
-        text-decoration: underline;
-        cursor: pointer;
+@media screen and (max-width: 1024px) {
+  .signin-page {
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(247, 255, 244);
+    .signin-container {
+      background-color: white;
+      min-height: 300px;
+      width: 400px;
+      border-radius: 20px;
+      box-shadow: 5px 5px 70px -50px #121212;
+      padding: 15px;
+      .signin-form {
+        padding-top: 40px;
+      }
+      .signup-redirect {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .redirect-link {
+          color: #1ed740;
+          text-decoration: underline;
+          cursor: pointer;
+        }
       }
     }
+    .info-container {
+      visibility: hidden;
+      opacity: 0;
+    }
+    .mobile-header {
+      font-size: 56px;
+      color: #1ed740;
+      font-weight: 600;
+    }
   }
-  .info-container {
-    transform: translateY(-30px);
+}
+@media screen and (min-width: 1024px) {
+  .signin-page {
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 255, 244);
+
+    .signin-container {
+      margin-left: 100px;
+      background-color: white;
+      min-height: 300px;
+      width: 400px;
+      border-radius: 20px;
+      box-shadow: 5px 5px 70px -50px #121212;
+      padding: 15px;
+      .signin-form {
+        padding-top: 40px;
+      }
+      .signup-redirect {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .redirect-link {
+          color: #1ed740;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+    .info-container {
+      transform: translateY(-30px);
+    }
+    .mobile-header {
+      visibility: hidden;
+      opacity: 0;
+    }
   }
 }
