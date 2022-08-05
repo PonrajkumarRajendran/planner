@@ -61,33 +61,35 @@ const SignIn = () => {
       <div className="mobile-header">
         <span>Planner</span>
       </div>
-      <div className="signin-container">
-        <div className="signin-form">
-          <form onSubmit={handleSubmit}>
-            <AuthpageInput
-              type="email"
-              name="email"
-              value={email}
-              onChange={handleChange}
-              label={"E-Mail"}
-            />
-            <AuthpageInput
-              type="password"
-              name="password"
-              value={password}
-              onChange={handleChange}
-              label={"PASSWORD"}
-            />
-            <AuthpageButton buttonName={"SIGN IN"} />
-          </form>
-        </div>
-        <div className="signup-redirect">
-          <span>
-            New here? No issues,{" "}
-            <span onClick={handleNewAccount} className="redirect-link">
-              Create a new account
+      <div className="signin-container-full">
+        <div className="signin-container">
+          <div className="signin-form">
+            <form onSubmit={handleSubmit}>
+              <AuthpageInput
+                type="email"
+                name="email"
+                value={email}
+                onChange={handleChange}
+                label={"E-Mail"}
+              />
+              <AuthpageInput
+                type="password"
+                name="password"
+                value={password}
+                onChange={handleChange}
+                label={"PASSWORD"}
+              />
+              <AuthpageButton buttonName={"SIGN IN"} />
+            </form>
+          </div>
+          <div className="signup-redirect">
+            <span>
+              New here? No issues,{" "}
+              <span onClick={handleNewAccount} className="redirect-link">
+                Create a new account
+              </span>
             </span>
-          </span>
+          </div>
         </div>
       </div>
     </div>
