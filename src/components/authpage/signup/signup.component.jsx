@@ -59,48 +59,52 @@ const SignUp = () => {
       <div className="info-container">
         <SideInfo />
       </div>
-      <div className="signup-container">
-        <div className="signup-form">
-          <form onSubmit={handleSubmit}>
-            <AuthpageInput
-              type="text"
-              name="name"
-              value={name}
-              onChange={handleChange}
-              label={"USERNAME"}
-            />
-            <AuthpageInput
-              type="email"
-              name="email"
-              value={email}
-              onChange={handleChange}
-              label={"E-Mail"}
-            />
-            <AuthpageInput
-              type="password"
-              name="password"
-              value={password}
-              onChange={handleChange}
-              label={"PASSWORD"}
-            />
-            <AuthpageInput
-              type="password"
-              name="confirm_password"
-              value={confirm_password}
-              onChange={handleChange}
-              label={"CONFIRM PASSWORD"}
-            />
-            <AuthpageButton type="submit" buttonName={"SIGN UP"} />
-          </form>
-        </div>
-        <div className="divide-line"></div>
-        <div className="signin-redirect">
-          <span>
-            Already a member, then{" "}
-            <span onClick={handleOldAccount} className="redirect-link">
-              Let's get you in.
+      <div className="mobile-header">
+        <span>Planner</span>
+      </div>
+      <div className="signup-container-full">
+        <div className="signup-container">
+          <div className="signup-form">
+            <form onSubmit={handleSubmit}>
+              <AuthpageInput
+                type="text"
+                name="name"
+                value={name}
+                onChange={handleChange}
+                label={"USERNAME"}
+              />
+              <AuthpageInput
+                type="email"
+                name="email"
+                value={email}
+                onChange={handleChange}
+                label={"E-Mail"}
+              />
+              <AuthpageInput
+                type="password"
+                name="password"
+                value={password}
+                onChange={handleChange}
+                label={"PASSWORD"}
+              />
+              <AuthpageInput
+                type="password"
+                name="confirm_password"
+                value={confirm_password}
+                onChange={handleChange}
+                label={"CONFIRM PASSWORD"}
+              />
+              <AuthpageButton type="submit" buttonName={"SIGN UP"} />
+            </form>
+          </div>
+          <div className="signin-redirect">
+            <span>
+              Already a member, then{" "}
+              <span onClick={handleOldAccount} className="redirect-link">
+                Let's get you in.
+              </span>
             </span>
-          </span>
+          </div>
         </div>
       </div>
     </div>
