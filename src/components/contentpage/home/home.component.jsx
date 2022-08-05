@@ -9,6 +9,7 @@ const Home = () => {
   const redirect = (value) => {
     navigate(`/${value}`);
   };
+
   return (
     <div className="home-container">
       <div className="intro-container">
